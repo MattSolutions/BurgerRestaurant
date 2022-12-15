@@ -1,0 +1,39 @@
+.titulos-home, .texto-home {
+    font-family: "Montserrat", sans-serif;
+  }
+  .container-fluid {
+    width: 70%;
+  }
+  
+  .image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 540px;
+  }
+  
+  .image-box img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    display: block;
+    width: 70%;
+    height: 70%;
+    margin-bottom: 30px;
+    padding: 5px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  
+  .image-box:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .mapa {
+    width: 420px;
+    height: 320px;
+    border: rgb(255, 253, 253) 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  

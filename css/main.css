@@ -46,8 +46,8 @@ body {
   background-color: #e2d7da; }
 
 .imgfondo {
-  background-image: url("https://i.imgur.com/1rEfq2F.jpg");
-  height: 60.9rem;
+  background-image: url("/img/slide-1.webp");
+  height: 46.25rem;
   -o-background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

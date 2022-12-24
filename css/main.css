@@ -180,6 +180,18 @@ body {
   font-size: 18px;
   font-family: "Montserrat", sans-serif; }
 
+  .iframeVideo {
+    height: 0px;
+    padding-top: 25px;
+    padding-bottom: 56.2%;
+    position: relative;
+  }
+  .iframeVideo iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
 /*FAQ*/
 .lista-faq {
   font-size: 18px;

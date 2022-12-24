@@ -192,7 +192,14 @@ body {
 
 .formulario {
   border: double #fffdfd 2px;
-  padding: 20px; }
+  padding: 20px;
+  width: 600px;
+  height: 450px;
+ }
+
+ #boton {
+  margin-top: 20px;
+  margin-bottom: 20px;}
 
 /*FOOTER*/
 .contenido-footer {

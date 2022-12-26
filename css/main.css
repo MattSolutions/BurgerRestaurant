@@ -161,6 +161,12 @@ body {
 .my-float {
   margin-top: 16px; }
 
+.carousel {
+  width: 50%;
+  height: 50%;
+  align-items: center;
+}
+
 .galeria {
   width: 200px; }
 
@@ -179,19 +185,7 @@ body {
 .historia {
   font-size: 18px;
   font-family: "Montserrat", sans-serif; }
-
-  .iframeVideo {
-    height: 0px;
-    padding-top: 25px;
-    padding-bottom: 56.2%;
-    position: relative;
-  }
-  .iframeVideo iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  }
-
+  
 /*FAQ*/
 .lista-faq {
   font-size: 18px;
@@ -203,7 +197,6 @@ body {
   font-family: "Montserrat", sans-serif; }
 
 .formulario {
-  border: double #fffdfd 2px;
   padding: 20px;
   width: 600px;
   height: 450px;
